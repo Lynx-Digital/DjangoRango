@@ -18,3 +18,5 @@ git add filnavn
 git add folder/*
 git add -u adder aller endrete filer
 git help for kommandoer
+git commit -m 'melding'
+git push
