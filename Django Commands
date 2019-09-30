@@ -1,0 +1,20 @@
+django commands:
+runserver 		- Starts the server
+startapp *name* 	- Creates a new application folder
+makemigrations 		- Initializing database changes to the project
+migrate 		- Deploys changes
+createsuperuser 	- Creates admin
+shell 			- opens up django shell
+objects.
+
+(InteractiveConsole)
+>>> from products.models import Product
+>>> obj = Product.objects.get(id=1)
+>>> dir(obj)
+
+
+navigate til project dir
+git add filnavn
+git add folder/*
+git add -u adder aller endrete filer
+git help for kommandoer
